@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+}
+nav {
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.icon-container {
+  display: flex;
+}
+.company-name {
+  display: flex;
+  flex-direction: column;
+}
+.company-name h2 {
+  padding-left: 20px;
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+.menu-item {
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-btn {
+  background-color: #0049b1;
+  color: white;
+  border-width: 0px;
+  padding: 10px;
+  border-radius: 40px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.hero-section {
+  width: 100%;
+  height: 90vh;
+  color: black;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("./image1.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copy-right {
+  margin-top: 100px;
+  font-size: 13px;
+}
+.hero {
+  display: flex;
+}
+.hero div {
+  width: 50%;
+}
+.hero-section-heading {
+  font-size: 40px;
+}
+.left {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.left p {
+  width: 75%;
+}
+.left button {
+  background-color: #0049b1;
+  border-width: 0px;
+  padding: 10px;
+  border-radius: 40px;
+  font-weight: bold;
+  padding-left: 25px;
+  font-size: 20px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: white;
+  margin-top: 50px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow {
+  height: 25px;
+  padding-left: 8px;
+}
+.right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.hero-section-right-arrow {
+  height: 40px;
+  cursor: pointer;
+}
+.second-section {
+  height: 90vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.second-section-top {
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
+.rad-line {
+  background-color: #ff3131;
+  width: 4px;
+  height: 100%;
+}
+.second-section-headding {
+  font-size: 45px;
+  padding-left: 15px;
+  font-weight: 400;
+}
+.second-section-left {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+.second-section-btn {
+  height: 30px;
+  padding-left: 30px;
+}
+.second-section-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.second-section-right p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.second-section-right :last-child {
+  margin-top: 40px;
+}
+.second-section-bottom {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px;
+}
+.third-section {
+  background-image: url("./Spacio\ TechTonics\ Consultancy\ V21.png");
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  position: relative;
+}
+.third-section-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.third-section-top img {
+  height: 50px;
+}
+.third-section h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: 200px;
+  font-weight: 400;
+  font-style: italic;
+}
+.third-section p {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+}
+.fouth-section {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("./bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+.fouth-section-top{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.fouth-section-top-right{
+  width: 50%;
+}
+.fouth-section-top-right img{
+  height: 700px;
+}
+.fouth-section-top-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.fouth-section-top-left-info{
+  padding-left: 20px;
+  width: 80%;
+}
+.fouth-section-top-left-info p{
+  font-size: 23px;
+  margin-top: 60px;
+}
+.fouth-section-top-left-info ul{
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.fouth-section-top-left-info ul li{
+  font-size: 20px;
+}
+.fouth-section-top-left-box{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 40px;
+  background-color: white;
+}
+.fouth-section-top-left-box .score-box{
+  margin:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fouth-section-top-left-box div div{
+  display: flex;
+  align-items: center;
+}
+.fouth-section-top-left-box div p{
+  font-size: 15px;
+  text-align: center;
+}
+.fouth-section-top-left-box div h1{
+  font-size: 50px;
+}
+.fouth-section-top-left-box div img{
+  padding-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .company-name h2 {
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .nav-btn{
+    font-size: 10px;
+  }
+  .hero-section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero-section-heading{
+    font-size: 20px;
+  }
+  .left button{
+    font-size: 15px;
+  }
+  .second-section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .second-section-headding{
+    font-size: 20px;
+  }
+  .second-section-right p{
+    font-size: 10px;
+  }
+  .third-section h1{
+    font-size: 10px;
+  }
+  .second-section-left h1{
+    font-size: 10px;
+  }
+}
